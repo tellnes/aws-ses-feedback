@@ -1,0 +1,30 @@
+{
+  "name": "aws-ses-feedback",
+  "version": "0.0.0",
+  "description": "`aws-ses-feedback` makes it easy to handle feedback from aws ses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tellnes/aws-ses-feedback.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tellnes/aws-ses-feedback/issues"
+  },
+  "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "aws-snsclient": "~0.2.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "aws",
+    "ses",
+    "feedback",
+    "amazon",
+    "email",
+    "mail"
+  ]
+}
