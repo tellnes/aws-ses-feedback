@@ -15,8 +15,8 @@ module.exports = function(options) {
 
     try {
       data = JSON.parse(message.Message)
-    } catch(err) {
-      return self.emit('error', err)
+    } catch(e) {
+      return self.emit('error', new Error('Error parsing JSON'))
     }
 
     self.emit(data.notificationType.toLowerCase(), data, message)
