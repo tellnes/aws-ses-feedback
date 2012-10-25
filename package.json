@@ -1,6 +1,6 @@
 {
   "name": "aws-ses-feedback",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "`aws-ses-feedback` makes it easy to handle feedback from aws ses.",
   "main": "index.js",
   "scripts": {
