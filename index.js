@@ -29,9 +29,9 @@ module.exports = function(options) {
   }
 
   self.listen = function() {
-    var server = require('http').createServer(function() {
+    var server = require('http').createServer(function(req, res) {
       if (req.url === url) {
-        if (req.method === 'post') return client(req, res)
+        if (req.method === 'POST') return client(req, res)
 
         res.writeHead(405)
         res.end('AWS SES Feedback - Method not allowed')
